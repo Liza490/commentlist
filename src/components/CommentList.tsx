@@ -48,6 +48,7 @@ const CommentItem = styled.div`
     rgba(250, 250, 250, 0.95)
   );
   border-radius: 48px;
+  
 `;
 
 const Avatar = styled.div`
