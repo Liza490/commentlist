@@ -1,0 +1,28 @@
+[12:53:16.248] [INFO] storybook v10.3.3
+[12:53:17.183] [ERROR] [38;2;241;97;97mSB_CORE-SERVER_0007 (MainFileEvaluationError): Storybook couldn't evaluate your [33m.storybook/main.ts[39m file.
+
+Original error:
+[37mError: The service was stopped
+    at /node_modules/esbuild/lib/main.js:999:38
+    at responseCallbacks.<computed> (/node_modules/esbuild/lib/main.js:884:9)
+    at Socket.afterClose (/node_modules/esbuild/lib/main.js:875:28)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)[39m[39m
+    at loadMainConfig (file://./node_modules/storybook/dist/_node-chunks/chunk-NQBOIYE4.js:11709:11)
+    at async buildDevStandalone (file://./node_modules/storybook/dist/core-server/index.js:7950:16)
+    at async withTelemetry (file://./node_modules/storybook/dist/_node-chunks/chunk-6PADJQ3N.js:218:12)
+    at async dev (file://./node_modules/storybook/dist/bin/core.js:2736:3)
+    at async _Command.<anonymous> (file://./node_modules/storybook/dist/bin/core.js:2806:92)
+[12:53:17.191] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[12:53:17.195] [WARN]   Failed to load preset: "/Users/admin/storybook-learning/commentlist/.storybook/main.ts"
+[12:53:17.196] [ERROR] [38;2;241;97;97mError: The service was stopped[39m
+    at ./node_modules/esbuild/lib/main.js:999:38
+    at responseCallbacks.<computed> (./node_modules/esbuild/lib/main.js:884:9)
+    at Socket.afterClose (./node_modules/esbuild/lib/main.js:875:28)
+    at Socket.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[12:53:22.507] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":true}
+[12:53:22.509] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
